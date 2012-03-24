@@ -1,6 +1,6 @@
 class Challenge6
 
-  def self.convert code
+  def self.morse_to_eng morse
     # Implmement me!
   end
 end

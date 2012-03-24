@@ -10,7 +10,7 @@ describe Challenge6 do
 
     @expectations.each do |input, output|
       it "should convert '#{input}' to '#{output}'" do
-        Challenge6.convert(input).should == output
+        Challenge6.morse_to_eng(input).should == output
       end
     end
     
